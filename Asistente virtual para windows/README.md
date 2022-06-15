@@ -1,6 +1,6 @@
  #Ikaro asistente virtual
  #___VIDEO___#
- [![Alt text](<a href='https://postimg.cc/MnCbDcnY' target='_blank'><img src='https://i.postimg.cc/MnCbDcnY/Screenshot-4.png' border='0' alt='Screenshot-4'/></a>)](https://youtu.be/UMdji4WSoQ8)
+ [![Alt text](https://i.postimg.cc/MnCbDcnY/Screenshot-4.png)](https://youtu.be/UMdji4WSoQ8)
  
  
  
