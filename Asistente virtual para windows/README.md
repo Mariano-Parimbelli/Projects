@@ -1,7 +1,7 @@
  #Ikaro asistente virtual
  #___VIDEO___#
- [![Alt text](https://postimg.cc/MnCbDcnY)](https://youtu.be/UMdji4WSoQ8)
- video:(https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/UMdji4WSoQ8/0.jpg)](https://www.youtube.com/watch?v=UMdji4WSoQ8)
+ 
  
  
  
