@@ -20,7 +20,7 @@ Se seleccionaron imágenes random de internet para hacer una pequeña demostraci
 
 **Los resultados:**
 
-A continuación se muestran los resultados de la clasificación de las imágenes de prueba:
+A continuación se muestran los resultados de la clasificación de las imágenes (no son el test) son imagenes simulando el modelo en produccion:
 
 <p align="center">
   <img src="https://i.postimg.cc/90LCWy9p/resultados.png" alt="Resultados">
