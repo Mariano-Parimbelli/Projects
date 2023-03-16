@@ -7,7 +7,7 @@ Este proyecto tiene como objetivo clasificar imágenes de botellas como de plás
 A continuación se muestra una imagen del dataset artificial utilizado para entrenar el modelo:
 
 <p align="center">
-  <img src="[https://i.postimg.cc/JHCGPmKx/dataset-artificial.png](https://i.postimg.cc/rsKxywrB/dataset-artificial.png)" alt="Dataset" width="10%">
+  <img src="https://i.postimg.cc/rsKxywrB/dataset-artificial.png" alt="Dataset">
 </p>
 
 El dataset contiene imágenes de botellas de plástico y vidrio en diferentes ángulos y posiciones. Se han agregado efectos de iluminación y ruido para aumentar la variabilidad de las imágenes y mejorar el rendimiento del modelo.
