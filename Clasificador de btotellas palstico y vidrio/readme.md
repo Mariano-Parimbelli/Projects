@@ -6,23 +6,25 @@ Este proyecto tiene como objetivo clasificar imágenes de botellas como de plás
 
 A continuación se muestra una imagen del dataset artificial utilizado para entrenar el modelo:
 
-![Dataset](https://i.postimg.cc/JHCGPmKx/dataset-artificial.png)
+<p align="center">
+  <img src="https://i.postimg.cc/JHCGPmKx/dataset-artificial.png" alt="Dataset" width="50%">
+</p>
 
 El dataset contiene imágenes de botellas de plástico y vidrio en diferentes ángulos y posiciones. Se han agregado efectos de iluminación y ruido para aumentar la variabilidad de las imágenes y mejorar el rendimiento del modelo.
 
 Se seleccionaron imágenes random de internet para hacer una pequeña demostración de la predicción del modelo:
 
-![Data Test](https://i.postimg.cc/TL4znqqv/data-test.png)
+<p align="center">
+  <img src="https://i.postimg.cc/TL4znqqv/data-test.png" alt="Data Test" width="100%">
+</p>
 
 **Los resultados:**
 
 A continuación se muestran los resultados de la clasificación de las imágenes de prueba:
 
-![Resultados](https://i.postimg.cc/LggrDYNY/resultados.png)
-
-## Uso
-
-Para utilizar el modelo entrenado, se pueden seguir los siguientes pasos:
+<p align="center">
+  <img src="https://i.postimg.cc/LggrDYNY/resultados.png" alt="Resultados" width="100%">
+</p>
 
 ## Preparación de imágenes
 
@@ -44,7 +46,4 @@ Se crea un ciclo que recorre las funciones de activación de la lista `funAct` y
 
 Al final de cada iteración, se guarda en una lista `Resumen` los resultados de la función de activación utilizada, la mejor precisión de validación (`val_accuracy`), la menor pérdida de validación (`val_loss`) y la época en que se obtuvieron dichos resultados.
 
-Luego se define un segundo modelo `cnn2` con una función de activación 'relu' y se entrena utilizando el generador `all_data` para aprovechar todos los datos para el entrenamiento final. El modelo se compila de la misma manera que en el ciclo anterior.
-
-Finalmente, se guarda el modelo entrenado en el directorio `./modelo/` si este no existe previamente.
-
+Luego se define un segundo modelo `cnn2` con una función de activación 'relu' y se entrena utilizando el generador `all_data` para aprovechar todos los datos para el entrenamiento final. El modelo
