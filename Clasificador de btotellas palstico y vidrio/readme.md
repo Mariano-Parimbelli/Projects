@@ -7,7 +7,7 @@ Este proyecto tiene como objetivo clasificar imágenes de botellas como de plás
 A continuación se muestra una imagen del dataset artificial utilizado para entrenar el modelo:
 
 <p align="center">
-  <img src="https://i.postimg.cc/JHCGPmKx/dataset-artificial.png" alt="Dataset" width="50%">
+  <img src="https://i.postimg.cc/JHCGPmKx/dataset-artificial.png" alt="Dataset" width="10%">
 </p>
 
 El dataset contiene imágenes de botellas de plástico y vidrio en diferentes ángulos y posiciones. Se han agregado efectos de iluminación y ruido para aumentar la variabilidad de las imágenes y mejorar el rendimiento del modelo.
@@ -15,7 +15,7 @@ El dataset contiene imágenes de botellas de plástico y vidrio en diferentes á
 Se seleccionaron imágenes random de internet para hacer una pequeña demostración de la predicción del modelo:
 
 <p align="center">
-  <img src="https://i.postimg.cc/TL4znqqv/data-test.png" alt="Data Test" width="100%">
+  <img src="https://i.postimg.cc/TL4znqqv/data-test.png" alt="Data Test" width="10%">
 </p>
 
 **Los resultados:**
@@ -23,7 +23,7 @@ Se seleccionaron imágenes random de internet para hacer una pequeña demostraci
 A continuación se muestran los resultados de la clasificación de las imágenes de prueba:
 
 <p align="center">
-  <img src="https://i.postimg.cc/LggrDYNY/resultados.png" alt="Resultados" width="100%">
+  <img src="https://i.postimg.cc/LggrDYNY/resultados.png" alt="Resultados" width="10%">
 </p>
 
 ## Preparación de imágenes
