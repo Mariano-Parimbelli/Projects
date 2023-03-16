@@ -15,7 +15,7 @@ El dataset contiene imágenes de botellas de plástico y vidrio en diferentes á
 Se seleccionaron imágenes random de internet para hacer una pequeña demostración de la predicción del modelo:
 
 <p align="center">
-  <img src="https://i.postimg.cc/TL4znqqv/data-test.png" alt="Data Test" width="10%">
+  <img src="https://i.postimg.cc/PJXdsSCJ/data-test.png" alt="Data Test">
 </p>
 
 **Los resultados:**
@@ -23,7 +23,7 @@ Se seleccionaron imágenes random de internet para hacer una pequeña demostraci
 A continuación se muestran los resultados de la clasificación de las imágenes de prueba:
 
 <p align="center">
-  <img src="https://i.postimg.cc/LggrDYNY/resultados.png" alt="Resultados" width="10%">
+  <img src="https://i.postimg.cc/90LCWy9p/resultados.png" alt="Resultados" width="10%">
 </p>
 
 ## Preparación de imágenes
