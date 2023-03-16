@@ -3,7 +3,7 @@
 Este proyecto tiene como objetivo clasificar imágenes de botellas como de plástico o de vidrio utilizando algoritmos de aprendizaje automático. Se ha creado un dataset artificial para entrenar el modelo.
 
 ## Dataset
-
+https://www.kaggle.com/datasets/vencerlanz09/bottle-synthetic-images-dataset
 A continuación se muestra una imagen del dataset artificial utilizado para entrenar el modelo:
 
 <p align="center">
