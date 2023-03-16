@@ -23,7 +23,7 @@ Se seleccionaron imágenes random de internet para hacer una pequeña demostraci
 A continuación se muestran los resultados de la clasificación de las imágenes de prueba:
 
 <p align="center">
-  <img src="https://i.postimg.cc/90LCWy9p/resultados.png" alt="Resultados" width="10%">
+  <img src="https://i.postimg.cc/90LCWy9p/resultados.png" alt="Resultados">
 </p>
 
 ## Preparación de imágenes
