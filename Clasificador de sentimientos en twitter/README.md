@@ -6,10 +6,10 @@ El modelo se entrena utilizando un conjunto de datos de tweets etiquetados con s
 
 El modelo utiliza técnicas de análisis de unigramas y bigramas para extraer características del texto de los tweets y luego utiliza un clasificador de árbol de decisión para clasificar los sentimientos. Los resultados se presentan en forma de una matriz de confusión y una gráfica de barras para visualizar la precisión del modelo.
 
-#___PREVIEW___#
+#___PREVIEW___
 
 [![Screenshot-1.png](https://i.postimg.cc/5NzgBG2r/Screenshot-6.png)](https://postimg.cc/hfSVg2x8)
 
-#___PREVIEW___#
+#___PREVIEW___
 
 [![UNIGRAMAS.png](https://i.postimg.cc/XvY9zDn4/UNIGRAMAS.png)](https://postimg.cc/CR9ZZ7ZQ)
