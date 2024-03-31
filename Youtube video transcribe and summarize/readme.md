@@ -29,7 +29,7 @@ El código fuente de este proyecto está disponible en [GitHub](https://github.c
 A continuación se muestran algunas capturas de pantalla del proyecto:
 
 ![Load](https://raw.githubusercontent.com/mariano4659/Projects/main/Youtube%20video%20transcribe%20and%20summarize/Captura%20de%20pantalla%202024-03-31%20122818.png)
-*Figura 1: Transcripción automática del audio de un video de YouTube.*
+*Figura 1: Se coloca la URL del video de youtube que queramos
 
 ![Resumen](https://raw.githubusercontent.com/mariano4659/Projects/main/Youtube%20video%20transcribe%20and%20summarize/Captura%20de%20pantalla%202024-03-31%20134133.png)
 *Figura 2: Generación de un resumen del contenido del video.*
