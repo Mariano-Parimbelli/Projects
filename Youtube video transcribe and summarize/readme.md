@@ -33,3 +33,11 @@ A continuación se muestran algunas capturas de pantalla del proyecto:
 
 ![Resumen](https://raw.githubusercontent.com/mariano4659/Projects/main/Youtube%20video%20transcribe%20and%20summarize/Captura%20de%20pantalla%202024-03-31%20134133.png)
 *Figura 2: Generación de un resumen del contenido del video.*
+
+
+
+## Video Demostrativo
+
+Puedes ver una demostración del proyecto en el siguiente video de YouTube:
+
+[![Demo]([https://www.youtube.com/watch?v=TU_ID_DEL_VIDEO](https://www.youtube.com/watch?v=N0NM6tzVgp8&source_ve_path=MjM4NTE&feature=emb_title))
