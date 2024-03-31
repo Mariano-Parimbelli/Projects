@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Video Transcript</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Youtube Video Transcript</h1>
+        <input type="text" id="video-link" placeholder="Paste YouTube video link">
+        <button id="load-button">Load</button>
+        <!-- Cambia la barra de carga por un icono giratorio -->
+        <div id="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('load-button').addEventListener('click', function () {
+            const videoLink = document.getElementById('video-link').value;
+            const loadingSpinner = document.getElementById('loading-spinner');
+
+            // Mostrar el icono de carga
+            loadingSpinner.style.display = 'block';
+
+            // Crear un objeto de solicitud
+            const xhr = new XMLHttpRequest();
+
+            // Deshabilitar el botón mientras se carga
+            this.disabled = true;
+
+            // Configurar la solicitud POST al servidor Flask
+            xhr.open('POST', '/load-video', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+
+            // Manejar la respuesta del servidor
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    // Ocultar el icono de carga después de recibir la respuesta
+                    loadingSpinner.style.display = 'none';
+
+                    if (xhr.status === 200) {
+                        const response = JSON.parse(xhr.responseText);
+                      
+
+                        // Verifica si se ha emitido el evento de redirección
+                        if (response.redirect_event) {
+                            // Redirige a la página 'index2.html' después de un pequeño retraso
+                            setTimeout(function () {
+                                window.location.href = 'index2.html';
+                            }, 2000); // Redirige después de 2 segundos (ajusta según tus necesidades)
+                        } else {
+                            // El evento de redirección no se ha emitido
+                        }
+                    } else {
+                        alert('Error al cargar el video.'); // Muestra un mensaje de error
+                    }
+                }
+            };
+
+    // Enviar los datos (el enlace de YouTube) al servidor Flask
+    const data = JSON.stringify({ youtube_link: videoLink });
+    xhr.send(data);
+});
+
+</script>
+</body>
+</html>

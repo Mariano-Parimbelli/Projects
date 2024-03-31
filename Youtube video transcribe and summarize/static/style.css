@@ -1,0 +1,178 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #007BFF, #1e8fff9c, #4169E1, #5656bba1, #0000cda1, #2c2c7e, #00008093, #4169E1, #1E90FF, #007BFF);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Para que los elementos estén uno encima del otro */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: flex-start; /* Comienza desde la parte superior */
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.548);
+    padding: 95px; /* Reduce el espacio en el contenedor */
+    margin-top: 15px; /* Agrega espacio arriba del contenedor */
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(83, 81, 81, 0);
+    text-align: center;
+    width: 250%; /* Ancho del contenedor principal */
+    height: 30%; 
+    max-width: 800px; /* Límite de ancho para evitar que sea demasiado ancho en pantallas grandes */
+}
+#loading-spinner {
+    display: none;
+    font-size: 3em; /* Ajusta el tamaño del icono */
+    color: #6817afa9; /* Cambia el color del icono (azul en este caso) */
+    margin-top: 40px; /* Ajusta la distancia desde arriba del icono */
+}
+#video-link:focus {
+outline-color: #a3a3a3a8; /* Establece el color del contorno al hacer clic en el campo de entrada de texto */
+}
+
+
+
+h1 {
+    color: #333;
+}
+
+#video-link {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+#load-button {
+    background-color: #405DE6;
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+  
+  .input-container {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .button-container {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .text-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Cambiar la opacidad del fondo */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+    max-height: calc(100vh - 218px); /* Limita la altura máxima para ajustar el tamaño */
+}
+  #load {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #2146ff, #5f58f0, #35498d, #c7c7c7, #6e6e6e, #b8b8b8, #c5c5c5, #a5b5ff, #45aafc, #426eff);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Para que los elementos estén uno encima del otro */
+    align-items: left; /* Centra horizontalmente */
+    justify-content: flex-start; /* Comienza desde la parte superior */
+}
+
+.title {
+    font-size: 46px; /* Tamaño de fuente más grande */
+    color: rgba(8, 8, 8, 0.459); /* Color blanco semi transparente */
+    margin-left: 20px; 
+    margin-top: 20px; /* Espacio entre el título y el contenedor */
+}
+
+
+.text-container {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 30px;
+    margin-top: 20px; /* Espacio entre el contenedor y el texto */
+    border-radius: 7px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    overflow-y: auto;
+    min-height: 220px;
+    min-width: 800px;
+    max-height: calc(50vh - 100px);
+    height: auto; /* Permitir que el contenedor crezca según el contenido */
+    width: 85%; /* Ancho del text-container */
+    max-width: 1500px; /* Límite de ancho */
+    font-family: "Times New Roman", Times, serif; /* Fuente Times New Roman */
+    font-size: 1.5em; /* Tamaño de fuente el doble de grande */
+}
+
+h1 {
+    color: #333;
+}
+
+.button {
+    margin-left: 20px;
+    background-color: #405DE6;
+    margin-top: 20px; /* Espacio entre el botón y el contenedor de texto */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content; /* Establece un ancho fijo basado en el contenido */
+    }
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+ 
