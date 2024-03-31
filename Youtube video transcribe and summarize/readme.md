@@ -40,4 +40,9 @@ A continuación se muestran algunas capturas de pantalla del proyecto:
 
 Puedes ver una demostración del proyecto en el siguiente video de YouTube:
 
-[![Demo]([https://www.youtube.com/watch?v=TU_ID_DEL_VIDEO](https://www.youtube.com/watch?v=N0NM6tzVgp8&source_ve_path=MjM4NTE&feature=emb_title))
+## Video Demostrativo
+
+Puedes ver una demostración del proyecto en el siguiente video de YouTube:
+
+[![Demo](https://img.youtube.com/vi/N0NM6tzVgp8/maxresdefault.jpg)](https://www.youtube.com/watch?v=N0NM6tzVgp8)
+
